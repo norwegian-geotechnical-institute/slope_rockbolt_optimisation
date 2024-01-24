@@ -13,3 +13,10 @@ Integration of Rhino/Grasshopper and Rocscience RocSlope for evaluation of rock 
 - Opossum2_0_Proto_A             by 'unknown author' (3.0.2.0)
 - Tunny                          by hrntsm (0.9.0)
 - LunchBox                       by 'unknown author' (2016.3.21.0)
+
+## Content
+- Settings.json for the input setting parameters for Tunny
+- Example Rhino file
+- Grasshopper file
+- Example output file of all trials
+- Example output file of all trials showing pareto solutions
