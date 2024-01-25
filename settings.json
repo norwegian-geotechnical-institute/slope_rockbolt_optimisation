@@ -1,0 +1,84 @@
+{
+  "Version": "0.9.0",
+  "Optimize": {
+    "Sampler": {
+      "Random": {
+        "Seed": 42
+      },
+      "Tpe": {
+        "Seed": 42,
+        "ConsiderPrior": true,
+        "PriorWeight": 1.0,
+        "ConsiderMagicClip": true,
+        "ConsiderEndpoints": false,
+        "NStartupTrials": 10,
+        "NEICandidates": 24,
+        "Multivariate": true,
+        "Group": false,
+        "WarnIndependentSampling": true,
+        "ConstantLiar": false
+      },
+      "CmaEs": {
+        "Seed": 42,
+        "Sigma0": null,
+        "NStartupTrials": 1,
+        "WarnIndependentSampling": true,
+        "ConsiderPrunedTrials": false,
+        "RestartStrategy": "",
+        "IncPopsize": 2,
+        "PopulationSize": null,
+        "UseSeparableCma": false,
+        "UseWarmStart": false,
+        "WarmStartStudyName": "",
+        "WithMargin": true
+      },
+      "NsgaII": {
+        "Seed": 42,
+        "MutationProb": null,
+        "PopulationSize": 50,
+        "Crossover": "",
+        "CrossoverProb": 0.9,
+        "SwappingProb": 0.5
+      },
+      "NsgaIII": {
+        "ReferencePoints": null,
+        "DividingParameter": 3,
+        "Seed": 42,
+        "MutationProb": null,
+        "PopulationSize": 50,
+        "Crossover": "",
+        "CrossoverProb": 0.9,
+        "SwappingProb": 0.5
+      },
+      "QMC": {
+        "QmcType": "sobol",
+        "Scramble": false,
+        "Seed": 42,
+        "WarnIndependentSampling": true,
+        "WarnAsynchronousSeeding": true
+      },
+      "BoTorch": {
+        "Seed": 42,
+        "NStartupTrials": 10
+      }
+    },
+    "NumberOfTrials": 5,
+    "ContinueStudy": false,
+    "CopyStudy": false,
+    "SelectSampler": 0,
+    "Timeout": 0.0,
+    "GcAfterTrial": 1,
+    "ShowRealtimeResult": false
+  },
+  "Result": {
+    "OutputNumberString": "0",
+    "SelectVisualizeType": 7,
+    "NumberOfClusters": 3
+  },
+  "StudyName": "TPE-test-2",
+  "Storage": {
+    "Path": "C:\\Users\\KYC\\Downloads\\Larvik_Random-test_2024-01-25.log",
+    "Type": 4
+  },
+  "CheckPythonLibraries": false
+}
