@@ -20,3 +20,7 @@ Integration of Rhino/Grasshopper and Rocscience RocSlope for evaluation of rock 
 - Grasshopper file
 - Example output file of all trials [TO-DO]
 - Example output file of all trials showing pareto solutions [TO-DO]
+
+## Instructions
+- for selecting points that snap to PointCloud in Rhino. "Onsnap" should be turned on. See the following settings in Rhino (at the bottom of the Rhino-window):
+![image](https://github.com/norwegian-geotechnical-institute/slope_rockbolt_optimisation/assets/74724769/bd528fdc-39b2-40a5-8694-d9a3464a53c4)
