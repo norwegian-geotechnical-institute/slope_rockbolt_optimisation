@@ -13,6 +13,10 @@ Integration of Rhino/Grasshopper and Rocscience RocSlope for evaluation of rock 
 - Opossum2_0_Proto_A             by 'unknown author' (3.0.3.0)
 - Tunny                          by hrntsm (0.9.0)
 - LunchBox                       by 'unknown author' (2016.3.21.0)
+- CockroachGH<sup>1</sup>                    by iboisepfl  (0.01 Rhino 7) 
+- Pancake                        by Keyu Gan (2.5.0.0)
+
+<sup>1</sup> To install CockroachGH, first go to https://github.com/9and3/Cockroach/tree/Cockroach/Build, then download from folder "RhinoCppPlugin" with the relevant Rhino version that you use, and download "CockroachGH.zip". Finally, unblock and unzipped all the downloaded files to the Components Folder in Grasshopper.
 
 ## Content
 - Settings.json for the input setting parameters for Tunny, where all seeds are set to "42". See how to do that https://github.com/hrntsm/Tunny/discussions/169#discussioncomment-8242220
