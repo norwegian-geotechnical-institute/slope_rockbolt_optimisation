@@ -1,25 +1,31 @@
 {
-  "Version": "0.9.0",
+  "Version": {
+    "Major": 0,
+    "Minor": 11,
+    "Build": 0,
+    "Revision": 0,
+    "MajorRevision": 0,
+    "MinorRevision": 0
+  },
   "Optimize": {
     "Sampler": {
       "Random": {
         "Seed": 42
       },
       "Tpe": {
-        "Seed": 42,
         "ConsiderPrior": true,
         "PriorWeight": 1.0,
         "ConsiderMagicClip": true,
         "ConsiderEndpoints": false,
         "NStartupTrials": 10,
         "NEICandidates": 24,
-        "Multivariate": true,
+        "Multivariate": false,
         "Group": false,
         "WarnIndependentSampling": true,
-        "ConstantLiar": false
+        "ConstantLiar": false,
+        "Seed": 42
       },
       "CmaEs": {
-        "Seed": 42,
         "Sigma0": null,
         "NStartupTrials": 1,
         "WarnIndependentSampling": true,
@@ -30,55 +36,63 @@
         "UseSeparableCma": false,
         "UseWarmStart": false,
         "WarmStartStudyName": "",
-        "WithMargin": true
+        "WithMargin": true,
+        "LrAdapt": false,
+        "Seed": 42
       },
       "NsgaII": {
-        "Seed": 42,
         "MutationProb": null,
         "PopulationSize": 50,
         "Crossover": "",
         "CrossoverProb": 0.9,
-        "SwappingProb": 0.5
+        "SwappingProb": 0.5,
+        "Seed": 42
       },
       "NsgaIII": {
         "ReferencePoints": null,
         "DividingParameter": 3,
-        "Seed": 42,
         "MutationProb": null,
         "PopulationSize": 50,
         "Crossover": "",
         "CrossoverProb": 0.9,
-        "SwappingProb": 0.5
+        "SwappingProb": 0.5,
+        "Seed": 42
       },
       "QMC": {
         "QmcType": "sobol",
         "Scramble": false,
-        "Seed": 42,
         "WarnIndependentSampling": true,
-        "WarnAsynchronousSeeding": true
+        "WarnAsynchronousSeeding": true,
+        "Seed": 42
       },
       "BoTorch": {
-        "Seed": 42,
-        "NStartupTrials": 10
+        "NStartupTrials": 10,
+        "Seed": 42
+      },
+      "GP": {
+        "NStartupTrials": 10,
+        "DeterministicObjective": false,
+        "Seed": 42
       }
     },
-    "NumberOfTrials": 5,
+    "NumberOfTrials": 4096,
     "ContinueStudy": false,
     "CopyStudy": false,
-    "SelectSampler": 0,
+    "SelectSampler": 6,
     "Timeout": 0.0,
     "GcAfterTrial": 1,
     "ShowRealtimeResult": false
   },
   "Result": {
-    "OutputNumberString": "0",
-    "SelectVisualizeType": 7,
+    "OutputNumberString": "3160",
+    "SelectVisualizeType": 3,
     "NumberOfClusters": 3
   },
-  "StudyName": "TPE-test-2",
+  "StudyName": "SL_QMC_0",
   "Storage": {
-    "Path": "C:\\Users\\KYC\\Downloads\\Larvik_Random-test_2024-01-25.log",
+    "Path": "C:\\Users\\KYC\\Downloads\\2024-03-21_tunny_SL.log",
     "Type": 4
   },
-  "CheckPythonLibraries": false
+  "CheckPythonLibraries": false,
+  "LogLevel": 2
 }
