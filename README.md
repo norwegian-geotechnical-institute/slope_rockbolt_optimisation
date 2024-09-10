@@ -1,5 +1,5 @@
 # slope_rockbolt_optimisation
-Integration of Rhino/Grasshopper and Rocscience RocSlope for evaluation of rock block stabilities and bolting optimisation
+Integration of Rhino/Grasshopper and Rocscience RocSlope3 for evaluation of rock block stabilities and bolting optimisation
 
 ## Publication
 This repository is associated to a manuscript of a journal article (to be submitted to the Journal of Rock Mechanics and Geotechnical Engineering)
