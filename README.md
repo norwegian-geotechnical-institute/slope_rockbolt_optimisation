@@ -2,7 +2,7 @@
 Integration of Rhino/Grasshopper and Rocscience RocSlope for evaluation of rock block stabilities and bolting optimisation
 
 ## Publication
-This repository is associated to a manuscript of a journal article (to be submitted to Journal of Rock Mechanics and Geotechnical Engineering)
+This repository is associated to a manuscript of a journal article (to be submitted to the Journal of Rock Mechanics and Geotechnical Engineering)
 - **Title:** Two-stage optimisation of slope rock bolting using key block theory with force transfer and multi-objective optimisation 
 - **Authors:** Jessica Ka Yi Chiu, Charlie Chunlin Li, Ole Jakob Mengshoel, Vidar Kveldsvik
 
@@ -31,9 +31,15 @@ The two Grasshopper scripts in this repository are referred in the article as fo
 - TT Toolbox                     by CORE studio | Thornton Tomasetti (1.9.6353.28734)
 - Human                          by 'unknown author' (1.2.0)
 
-<sup>1</sup> To install CockroachGH, first go to https://github.com/9and3/Cockroach/tree/Cockroach/Build, then download from folder "RhinoCppPlugin" with the relevant Rhino version that you use, and download "CockroachGH.zip". Finally, unblock and unzipped all the downloaded files to the Components Folder in Grasshopper.
+<sup>1</sup> To install CockroachGH, first go to https://github.com/9and3/Cockroach/tree/Cockroach/Build, then download from the folder "RhinoCppPlugin" with the relevant Rhino version that you use, and download "CockroachGH.zip". Finally, unblock and unzipped all the downloaded files to the Components Folder in Grasshopper.
 
 
 ## Instructions
+### [ProgressiveFailureAnalysis_ForceTransfer.gh]
+- Inputs to this script are two OBJ files, separately for blocks and joints, exported from RocSlope3
+- In RocSlope3, after the computation of blocks and kinematic analysis is completed, in the result tab, under "Results Set" in Properties, choose "All Valid Blocks". Then go to File > Export > Export Blocks, under "Blocks to Include", choose "Current Result Set", then export to OBJ file type. Follow the same procedure for exporting "Blocks" and "Joints".
+
+
+### [RockBoltingOptim.gh]
 - for selecting points that snap to PointCloud in Rhino. "Onsnap" should be turned on. See the following settings in Rhino (at the bottom of the Rhino-window):
 ![image](https://github.com/norwegian-geotechnical-institute/slope_rockbolt_optimisation/assets/74724769/bd528fdc-39b2-40a5-8694-d9a3464a53c4)
