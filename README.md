@@ -1,6 +1,16 @@
 # slope_rockbolt_optimisation
 Integration of Rhino/Grasshopper and Rocscience RocSlope for evaluation of rock block stabilities and bolting optimisation
 
+## Publication
+This repository is associated to a manuscript of a journal article (to be submitted to Journal of Rock Mechanics and Geotechnical Engineering)
+- **Title:** Two-stage optimisation of slope rock bolting using key block theory with force transfer and multi-objective optimisation 
+- **Authors:** Jessica Ka Yi Chiu, Charlie Chunlin Li, Ole Jakob Mengshoel, Vidar Kveldsvik
+
+The two Grasshopper scripts in this repository are referred in the article as follows:
+- Appendix A. Grasshopper script for progressive failure analysis with force transfer **[ProgressiveFailureAnalysis_ForceTransfer.gh]**
+- Appendix B. Grasshopper script for optimisation of rockbolting **[RockBoltingOptim.gh]**
+
+
 ## Software
 ### Rhino
 - Rhino Version 7 SR37 (7.37.24107.15001, 2024-04-16)
