@@ -9,9 +9,9 @@ This repository is associated with a manuscript of a journal article (to be subm
 ### How to cite
 Chiu, JKY., Li, CC., Mengshoel, OJ., Kveldsvik V. (2025). *Slope rockbolting using key block theory: Force transfer and artificial intelligence-assisted multi-objective optimisation.* [Manuscript under proofreading].
 
-The two Grasshopper scripts in this repository are referred in the article as follows:
-- Appendix A. Grasshopper script for progressive failure analysis with force transfer **[ProgressiveFailureAnalysis_ForceTransfer.gh]**
-- Appendix B. Grasshopper script for optimisation of rockbolting **[RockBoltingOptim.gh]**
+Two Grasshopper scripts are included in this repository:
+- Progressive failure analysis with force transfer **[ProgressiveFailureAnalysis_ForceTransfer.gh]**
+- Optimisation of rockbolting **[RockBoltingOptim.gh]**
 
 
 ## Software
