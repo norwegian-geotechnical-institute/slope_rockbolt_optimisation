@@ -2,8 +2,8 @@
 Integration of Rhino/Grasshopper and Rocscience RocSlope3 for evaluation of rock block stabilities and bolting optimisation
 
 ## Citation/publication
-This repository is associated with a manuscript of a journal article (to be submitted to the Journal of Rock Mechanics and Geotechnical Engineering)
-- **Title:** Two-stage optimisation of slope rock bolting using key block theory with force transfer and multi-objective optimisation 
+This repository is associated with a manuscript of a journal article (published in the Journal of Rock Mechanics and Geotechnical Engineering)
+- **Title:** Slope rockbolting using key block theory: Force transfer and artificial intelligence-assisted multi-objective optimisation 
 - **Authors:** Jessica Ka Yi Chiu, Charlie Chunlin Li, Ole Jakob Mengshoel, Vidar Kveldsvik
 
 ### How to cite
